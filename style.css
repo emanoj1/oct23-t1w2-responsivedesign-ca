@@ -1,0 +1,43 @@
+body {
+    background-color:darkgrey;
+}
+
+nav {
+    display: flex;
+    width:100dvw;
+}
+
+nav > * {
+    width:50dvw;
+}
+
+@media screen and (min-width:1000px) {
+    body {
+        background-color: thistle;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .breakpoint {background: red;}
+}
+/* Below is the typical media query breakpoints|Source: W3Schools|"breakpoint" is a class name */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .breakpoint {background: green;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .breakpoint {background: blue;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .breakpoint {background: orange;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .breakpoint {background: pink;}
+}
